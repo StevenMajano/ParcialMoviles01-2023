@@ -3,4 +3,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="CardViewColor">#F8E473</color>
+    <color name="fondoLayout">#3b83bd</color>
+    <color name="Color_btn">#B22222</color>
 </resources>

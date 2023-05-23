@@ -4,4 +4,11 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="RegiaText">Cerveza Pilsener</string>
     <string name="tipo">Jager</string>
+    <string name="nueva_Cerveza">Nueva Cerveza</string>
+    <string name="name">name</string>
+    <string name="tipoHint">Tipo</string>
+    <string name="summitBtn">Agregar cerveza</string>
+    <string name="Pilsener_text">Cerveza Pilsener</string>
+    <string name="Tipo">Tipo de cerveza</string>
+    <string name="Descripcion">Rica Cerveza</string>
 </resources>
