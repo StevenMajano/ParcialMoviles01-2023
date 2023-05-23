@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/cerveza_item">
+    <fragment
+        android:id="@+id/fragment_estanteria2"
+        android:name="com.example.cerveza.fragment_estanteria"
+        android:label="fragment_estanteria"
+        tools:layout="@layout/fragment_estanteria" >
+        <action
+            android:id="@+id/action_fragment_estanteria2_to_fragment_nueva_cerveza2"
+            app:destination="@id/fragment_nueva_cerveza2" />
+        <action
+            android:id="@+id/action_fragment_estanteria2_to_fragment_cerveza2"
+            app:destination="@id/fragment_cerveza2" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_nueva_cerveza2"
+        android:name="com.example.cerveza.fragment_nueva_cerveza"
+        android:label="fragment_nueva_cerveza"
+        tools:layout="@layout/fragment_nueva_cerveza" />
+    <fragment
+        android:id="@+id/fragment_cerveza2"
+        android:name="com.example.cerveza.fragment_cerveza"
+        android:label="fragment_cerveza"
+        tools:layout="@layout/fragment_cerveza" />
+</navigation>
